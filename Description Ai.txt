@@ -1,0 +1,27 @@
+# 🤖 Assistant Vocal Intelligent
+
+Un assistant vocal simple en Python capable de reconnaître des commandes vocales, parler à l’utilisateur, ouvrir YouTube, lancer une chanson spécifique et donner l’heure.
+
+## 🎯 Fonctionnalités
+
+- 🎤 Reconnaissance vocale en français
+- 🗣 Synthèse vocale avec `pyttsx3`
+- 🕒 Répond à la commande vocale “quelle heure est-il ?”
+- 📺 Lance YouTube ou une vidéo spécifique sur demande
+- 👋 Réagit à des commandes simples comme “bonjour”, “au revoir”, etc.
+
+## 📦 Technologies utilisées
+
+- Python
+- [speech_recognition](https://pypi.org/project/SpeechRecognition/)
+- pyttsx3
+- webbrowser
+- datetime
+
+## 🚀 Installation
+
+1. Clone le dépôt :
+
+```bash
+git clone https://github.com/TonNomUtilisateur/assistant-vocal-python.git
+cd assistant-vocal-python
